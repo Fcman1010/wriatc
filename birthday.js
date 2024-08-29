@@ -13,7 +13,7 @@ function showPopup(imageUrl) {
     popupImg.src = imageUrl;
     popup.style.display = "block";
 
-    // ปิดป็อบอัพเมื่อคลิกปุ่ม "X"
+    // ปิดป็อบอัพเมื่อคลิกปุ่ม "ย้อนกลับ"
     document.querySelector('.close').onclick = function() {
         popup.style.display = "none";
     };
